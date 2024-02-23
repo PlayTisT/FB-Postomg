@@ -31,7 +31,7 @@ module.exports = defineConfig({
     /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
     trace: 'on-first-retry',
     video: 'on',
-    testIdAttribute: 'data-testid', // เราสามารถทำเพิ่มได้
+    testIdAttribute: 'data-testid', // เราสามารถทำเพิ่มได้ https://playwright.dev/docs/locators#quick-guide
   },
 
   /* Configure projects for major browsers */
